@@ -3,9 +3,10 @@
 body  {
   background-color: cornsilk;
   font-family: 'Times New Roman', Times, serif;
-  color: darkgreen;
+  color: #4A4A4A;
   font-size: 20px;
   line-height: normal;
+
 }
 
 h1 {
@@ -28,6 +29,20 @@ h2  {
   font-family: 'Arvo', serif;
   font-size: larger;
   line-height: normal;
+}
+
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
 }
 
 h3 {
@@ -91,7 +106,8 @@ ul {
     padding-inline-start: 40px;
 }
 
-#avatar {
+.avatar-large {
+  width: 56px;
   border-radius: 50px;
 }
 
