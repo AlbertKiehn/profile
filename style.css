@@ -43,6 +43,7 @@ h2  {
 
 .btn-ghost:hover {
   opacity: 1;
+  color: #4A4A4A;
 }
 
 h3 {
@@ -66,9 +67,10 @@ a:hover {
   background-color: white;
   padding: 40px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 4px;
+  border-radius: 20px;
   margin: 20px 0px;
   text-align: center;
+  border: 1px solid #4A4A4A;
 }
 
 .card-white-follow {
@@ -76,9 +78,10 @@ a:hover {
   padding: 40px;
   padding-left: 30px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 4px;
+  border-radius: 20px;
   margin: 15px 0px;
   text-align: center;
+  border: 1px solid red;
 }
 
 .container {
@@ -109,6 +112,7 @@ ul {
 .avatar-large {
   width: 56px;
   border-radius: 50px;
+  border: 2px solid #4A4A4A;
 }
 
 .btn-blue {
