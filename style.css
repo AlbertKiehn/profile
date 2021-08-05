@@ -138,6 +138,12 @@ ul {
   border: 2px solid #4A4A4A;
 }
 
+.avatar-large:hover {
+  width: 70px;
+  border-radius: 50px;
+  border: 2px solid #4A4A4A;
+}
+
 .btn-blue {
     background-color: deeppink;
     color: white;
